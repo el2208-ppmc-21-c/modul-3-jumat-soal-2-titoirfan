@@ -85,7 +85,10 @@ void printBarisan(int N, int barisan[50][50])
     {
         for (int j = 0; j < N; j++)
         {
-            printf("%d ", barisan[i][j]);
+            if (j != N - 1)
+                printf("%d ", barisan[i][j]);
+            else
+                printf("%d", barisan[i][j]);
         }
         printf("\n");
     }

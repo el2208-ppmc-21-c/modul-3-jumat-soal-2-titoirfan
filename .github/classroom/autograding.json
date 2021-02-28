@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "4\r\n16 15 9 13\r\n12 10 11 10\r\n8 7 6 5\r\n4 3 2 1",
+      "output": "16 15 13 11\r\n12 10 10 9\r\n8 7 6 5\r\n4 3 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\n10 30 21\r\n50 23 49\r\n20 22 13",
+      "output": "50 49 30\r\n23 21 20\r\n22 13 10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "5\r\n1 2 3 4 5\r\n5 4 3 2 1\r\n1 3 2 5 4\r\n1 5 4 2 3\r\n1 5 4 3 2",
+      "output": "5 5 5 5 4\r\n5 4 4 4 1\r\n4 3 3 3 1\r\n3 3 2 2 1\r\n2 2 2 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "2\r\n1 100\r\n232 13",
+      "output": "232 100\r\n13 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "1\r\n1",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\n1 3 2\r\n1 8 0\r\n1 8 3",
+      "output": "8 3 1\r\n8 2 1\r\n3 1 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "7\r\n1 3 2 1 8 0 4 1\r\n1 3 2 1 8 0 2 0\r\n1 3 2 1 7 0 3 1\r\n1 8 3 1 8 0 0 4\r\n1 3 2 1 8 0 1 1\r\n1 3 2 1 8 0 4 7\r\n1 3 2 1 8 0 7 5",
+      "output": "8 8 8 8 8 7 4\r\n8 7 4 3 3 3 2\r\n4 3 3 3 2 2 2\r\n3 2 2 1 1 1 1\r\n1 1 1 1 1 1 1\r\n1 1 1 1 1 0 0\r\n1 0 0 0 0 0 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\n1 1 1\r\n2 3 2\r\n3 2 3",
+      "output": "3 3 3\r\n2 2 2\r\n1 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "3\r\n1 2 3\r\n1 3 2\r\n1 2 3",
+      "output": "3 3 1\r\n3 2 1\r\n2 2 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "4\r\n1 2 3 4\r\n5 6 7 8\r\n2 3 4 5\r\n2 1 9 6",
+      "output": "9 8 6 5\r\n7 6 3 2\r\n5 4 2 2\r\n4 3 1 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
